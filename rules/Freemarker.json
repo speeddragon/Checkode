@@ -1,0 +1,11 @@
+{
+	"name": "Mantis Rules",
+	"rules": [
+	{
+		"extension": "ftl",
+		"expression": "<!-- ",
+		"information": "Comments in FTL will appear in production",
+		"solution": "Change the <!-- to <#-- to hide comments.",
+		"warning_level": 10
+	}] 
+}

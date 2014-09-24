@@ -1,0 +1,20 @@
+{
+	"name": "Javascript Rules",
+	"rules": [
+	{
+		"extension": "js",
+		"expression": "location.href",
+		"information": "",
+		"solution": "",
+		"warning_level": 5,
+		"disable": true
+	},
+	{
+		"extension": "js",
+		"expression": "document.cookies",
+		"information": "",
+		"solution": "",
+		"warning_level": 5,
+		"disable": true
+	}] 
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Java Rules",
+	"rules": [
+	{
+		"extension": "java",
+		"expression": "request.getParameter(",
+		"information": "Be careful with the use of raw data from request object.",
+		"solution": "Validate all the input from the request object, always.",
+		"warning_level": 4,
+		"disable": true
+	},
+	{
+		"extension": false,
+		"expression": "request.getCookieValue(",
+		"information": "Be careful with the use of raw data from request object.",
+		"solution": "Validate all the input from the request object, always.",
+		"warning_level": 4,
+		"disable": true
+	}]
+}

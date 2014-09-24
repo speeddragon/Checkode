@@ -1,0 +1,1 @@
+php -q gif.php $@ 
